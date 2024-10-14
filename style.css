@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    background-image:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url(mosul.jpeg);
+    background-size: cover;
+   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.encavezado{
+    margin-top: -20px;
+    background: none;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+.lista_uno{
+    margin-left: 20px;
+    display: flex;
+    margin-left: 10%;
+}
+.logo{
+    cursor: pointer;
+    width: 200px;
+    height: 120px;
+}
+.buscador{
+    position: relative;
+    margin-left:auto;
+}
+.list{
+    list-style: none;
+    padding: 10px;
+}
+.list a button{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.list a button:hover{
+    color: red;
+}
+.buscador{
+    align-items: center;
+}
+.lupa{
+    width: 30px;
+    height: 30px;
+}
+.buscador button{
+    
+    width: 200px;
+    height: 30px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+}
+.hola{
+    display: flex;
+}
+.hola li{
+    list-style: none;
+}
+.hola img {
+
+    cursor: pointer;
+}
+.hola button{
+    cursor: text;
+    border-radius: 10px;
+}
+.serie{
+    margin-left: 20px;
+    display: flex;
+    color: white;
+    margin-top: 300px;
+}
+.serie p{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.serie img{
+    width: 50px;
+    height: 50px;
+}
+.titulo{
+    margin: 0;
+    color: rgba(255, 255, 255, 0.831);
+    font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 20px;
+}
+.contenido{
+    margin-top: -200px;
+}
+.informacion{
+    color: white;
+    margin-left: 20px;
+
+}
+.info button{
+    background: red;
+    border-radius: 2px;
+    border:none;
+    color: rgb(255, 255, 255);
+    width: 60px;
+    height: 20px;
+    
+}
+.info{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: gray;
+}
+.tex{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.831);
+}
+.botones{
+    margin-left: 20px;
+
+}
+.IR{
+    border-radius: 5px;
+    width: 80px;
+    height: 35px;
+    background: red;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;
+}
+.MI_LISTA{
+    border-radius: 5px;
+    width: 150px;
+    height: 35px;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;
+}
+@media(max-width:700px){
+    header{
+      flex-direction:column;
+    }
+    .lista_uno{
+        margin-left: -290px;
+      
+    }
+    .list   a button{
+        font-size: 17px;
+    }
+    .buscador{
+        margin-top: -70px;
+    }
+}
